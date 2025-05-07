@@ -138,8 +138,8 @@ app.syncVideos = function() {
 app.beforeAndAfterSlider = function() {
   let active = false;
 
-  // resizer.style.left = (slider.offsetWidth / 2) + 2 + 'px';
-  resizer.style.left = ((slider.offsetWidth / 3) * 2) + 'px';
+  resizer.style.left = (slider.offsetWidth / 2) + 2 + 'px';
+  // resizer.style.left = ((slider.offsetWidth / 3) * 2) + 'px';
   
   document.addEventListener('DOMContentLoaded', function(){
     let width = slider.offsetWidth;
