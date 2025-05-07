@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Smart</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Varela+Round&display=swap"
+        rel="stylesheet">
+    <!-- Link to Font Awesome -->
+    <script src="https://kit.fontawesome.com/5c1272d9b0.js" crossorigin="anonymous"></script>
+    <!-- Link to jquery a dependency of Popcorn.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Link to Popcorn.js -->
+    <script src="https://static.bocoup.com/js/popcorn.min.js"></script>
+
+    <!-- Link to StyleSheet -->
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+<!-- HEADER START -->
+    <header>
+        <div class="logo-container">
+            <img src="./assets/FamilySmartLogo.png" alt="Family Smart Logo">
+        </div>
+        <h1>Why Both is Best</h1>
+        <div>
+            <p class="sub-title">Our Parent Peer Support Workers are an asset to any clinical care team.<br/> In clinical settings, we help save time, money, and—most importantly—save lives.</p>
+            <!-- <p class="sub-title">In clinical settings, we help save time, money, and—most importantly—lives.</p> -->
+            <p class="mobile-text sub-title">This site is best experienced on desktop. Otherwise, select a view and press play.</p>
+        </div>
+
+    </header>
+<!-- HEADER END -->
+
+<!-- MAIN START -->
+    <main>
+        <section class="vid-section">
+            <!-- CUSTOM VIDEO SLIDER START -->
+            <div class="container">
+                <div id="before-after-slider">
+                    <!-- Video 1 -->
+                    <div class="vid-cont" id="before-vid">
+                        <video width="1280" id="a" controls controlsList="nofullscreen nodownload" preload="auto" playsinline webkit-playsinline
+                        poster="https://pointblank-sandbox.flywheelsites.com/wp-content/uploads/2023/02/FS-posterframe-1.png">
+                            <source crossorigin="anonymous"
+                                src="https://video.wixstatic.com/video/1d20b7_5596077c86d94304a94d24a60f4b0611/1080p/mp4/file.mp4">
+                            </source>
+                            
+                        </video>
+                    </div>
+
+                    <!-- Video 1 End -->
+
+                    <!-- Video 2 -->
+                    <div class="vid-cont" id="after-vid">
+                        <video width="1280" id="b" controlsList="nofullscreen nodownload" preload="auto" playsinline webkit-playsinline>
+                            <source crossorigin="anonymous"
+                                src="https://video.wixstatic.com/video/1d20b7_e06d5f1a321c4fd4bd7375f1b89941ff/1080p/mp4/file.mp4">
+                            </source>
+                        </video>
+                    </div>
+                    <!-- Video 2 End -->
+
+                    <!-- Resizer -->
+                    <div id="resizer" data-playing="false" role="switch" aria-checked="false">
+                        <audio id="c" src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" crossorigin="anonymous" preload="auto" muted></audio>
+                    </div>
+                </div> <!-- ending div for slider-->
+
+                <!-- Scrub -->
+                <input type="range" value="0" id="scrub" hidden>
+
+            </div> 
+            <!-- VIDEO PLAYER END -->
+
+            <!-- MOBILE IMAGE -->
+            <div class="img-mobile" id="mob-one">
+                <a href="https://video.wixstatic.com/video/1d20b7_5596077c86d94304a94d24a60f4b0611/1080p/mp4/file.mp4"><img src="./assets/Mobile_View01.jpg" alt=""></a>
+            </div>
+            <div class="img-mobile-after" id="mob-two">
+                <a href="https://video.wixstatic.com/video/1d20b7_e06d5f1a321c4fd4bd7375f1b89941ff/1080p/mp4/file.mp4"><img src="./assets/Mobile_View02.jpg" alt=""></a>
+            </div>
+            <button id="mobile-before">View 01</button>
+            <button id="mobile-after">View 02</button>
+
+            <!-- <p class="mobile-text sub-title">Swipe left or right to choose a video and press play. For best experience, please view on desktop.</p> -->
+            <!-- MOBILE IMAGE END -->
+
+            <p class="desktop-text sub-title">Press play, then move the slider back and forth to find out why.</p>
+        </section>
+
+        <section class="bg-white">
+            <h2>Why FamilySmart?</h2>
+            <div class="text-container">
+        
+                    <p>For families of children or youth who are struggling with their mental health, services can be difficult to understand.
+                    Who better to help navigate these systems than those who’ve been there?</p>  
+        
+                    <p>FamilySmart’s parent peer support workers have a powerful combination of lived experience, thorough training and support. Working alongside healthcare professionals, they provide families with context, clarity, and caring.</p>
+        
+                    <p>That’s because FamilySmart has the most experience, expertise, and longevity of any comparable program. Our parent peer support workers are uniquely equipped to complement the work of healthcare professionals.</p>
+                    
+                    <p>They’re a true asset to any clinical team. After all, both is best.</p>
+            </div>
+        </section>
+
+        <section class="bg-grey">
+            <h2>Why peer-to-peer support?</h2>
+            <div class="text-container">
+                <div class="flex">
+                    <article>
+                        <div class="img-cont">
+                            <img src="./assets/downward-trend.png" alt="A graphic showing a downward trend">
+                        </div>
+                        <p><span>Reduces</span> hospitalization, symptom distress, isolation, and stigma</p>
+                    </article>
+                    <article>
+                        <div class="img-cont">
+                            <img src="./assets/upward-trend.png" alt="A graphic showing an upward trend">
+                        </div>
+                        <p><span>Improves</span> coping skills, access to resources, and quality of life</p>
+                    </article>
+                </div>
+    
+                <p class="teal">Source: <a href="https://www.mentalhealthcommission.ca/wp-content/uploads/drupal/2016-07/MHCC_Making_the_Case_for_Peer_Support_2016_Eng.pdf" target="_blank">The Mental Health Commission of Canada</a></p>
+            </div>
+
+        </section>
+        
+        <section class="cta-section">
+            <h2>Interested in learning more?</h2>
+            <div class="text-container">
+                <p>Email us: <a href="mailto: bothisbest@familysmart.ca?subject=Why Both is Best" rel="noreferrer">bothisbest@familysmart.ca</a></p>
+
+            </div>
+
+        </section>
+    </main>
+<!-- MAIN END -->
+
+<!-- Link to custom JS script -->
+    <script src="./script.js"></script>
+</body>
+</html>

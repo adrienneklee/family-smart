@@ -1,0 +1,132 @@
+@media (max-width: 1200px) {
+    // header {
+    //     min-height: 50vh;
+    // }
+    .vid-section {
+        min-height: 45vh;
+        p {
+            margin: 30px auto;
+        }
+    }
+    .container {
+        width: 75%;
+    }
+    .text-container {
+        width: 60%;
+    }
+}
+@media (max-width: 992px) {
+    header {
+        // min-height: 55vh;
+        padding-bottom: 12%;
+    }
+    h1, h2 {
+        font-size: 2.6rem;
+        line-height: 3rem;
+    }
+    .text-container {
+        width: 80%;
+    }
+    .vid-section {
+        min-height: 35vh;
+        margin-top: -12%;
+    }
+}
+@media (max-width:767px) {
+    header {
+        padding-bottom: 20%;
+    }
+    h1, h2 {
+        font-size: 2rem;
+        line-height: 2.4rem;
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .vid-section {
+        margin-top: -20%;
+    }
+    .container {
+        width: 100%;
+        padding: 0 20px
+    }
+    .bg-white {
+        padding: 10% 0 10% 0;
+    }
+}
+@media (max-width: 576px) {
+    header {
+        min-height: 400px;
+        .logo-container {
+            width: 230px;
+        }
+        p.sub-title {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+    }
+    h1, h2 {
+        font-size: 35px;
+        // line-height: 2rem;
+    }
+
+    .vid-section {
+        margin-top: -26%;
+    }
+    .bg-grey .flex {
+        flex-direction: column;
+    }
+    .bg-white{
+        padding: 20% 0 5% 0;
+    }
+    .text-container {
+        width: 90%;
+    }
+    .desktop-text {
+        display: none;
+    }
+
+    // Mobile Video
+    .container {
+        display: none;
+    }
+    .mobile-text {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400 !important;
+        display: block;
+        font-size: 15px;
+        line-height: 23px;
+        font-style: italic;
+    }
+    button {
+        display: inline-block;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        padding: 10px;
+        border: none;
+        border-radius: 3px;
+    }
+    #mobile-before  {
+        color: #fff;
+        background-color: #8BD6D6;
+    }
+    #mobile-after {
+        color: #fff;
+        background-color: #7E4F6F;
+    }
+    .img-mobile {
+        display: block;
+        width: 100%;
+        padding: 0 20px;
+        margin: 30px auto;
+    }
+    .img-mobile-after {
+        display: hidden;
+        width: 100%;
+        padding: 0 20px;
+        margin: 30px auto;
+    }
+ 
+}
+
+
